@@ -1,0 +1,27 @@
+# historique.txt
+
+Id CommandLine                                                                                                                                                         
+  -- -----------                                                                                                                                                         
+   1 Set-Location -Path C:\...                                                                                                                                           
+   2 New-Item -Path OddFolder -ItemType Directory                                                                                                                        
+   3 New-Item -Path EvenFolder -ItemType Directory                                                                                                                       
+   4 Set-Location .\FolderTest1                                                                                                                                          
+   5 Move-Item -Path File1 -Destination C:\OddFolder                                                                                                                     
+   6 Move-Item -Path File3 -Destination C:\OddFolder                                                                                                                     
+   7 Move-Item -Path File5 -Destination C:\OddFolder                                                                                                                     
+   8 Move-Item -Path File2 -Destination C:\EvenFolder                                                                                                                    
+   9 Move-Item -Path File4 -Destination C:\EvenFolder                                                                                                                    
+  10 Set-Location C:\                                                                                                                                                    
+  11 Set-Location FolderTest2                                                                                                                                            
+  12 Move-Item -Path File6 -Destination C:\EvenFolder                                                                                                                    
+  13 Move-Item -Path File8 -Destination C:\EvenFolder                                                                                                                    
+  14 Move-Item -Path File10 -Destination C:\EvenFolder                                                                                                                   
+  15 Move-Item -Path File7 -Destination C:\OddFolder                                                                                                                     
+  16 Move-Item -Path File9 -Destination C:\OddFolder                                                                                                                     
+  17 Set-Location C:\                                                                                                                                                    
+  18 Get-ChildItem                                                                                                                                                       
+  19 Set-Location .\EvenFolder                                                                                                                                           
+  20 Get-ChildItem                                                                                                                                                       
+  21 Set-Location C:\                                                                                                                                                    
+  22 Get-History > historique.txt                                                                                                                                        
+  23 Set-Location .\EvenFolder      
